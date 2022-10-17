@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "unfoldvr": {
+      "main": "src/unfoldvr.mo",
+      "type": "motoko"
+    },
+    "unfoldvr_test": {
+      "main": "src/unfoldvr.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "vessel sources"
+    }
+  },
+  "dfx": "0.8.4",
+  "networks": {
+    "local": {
+      "bind": "localhost:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
